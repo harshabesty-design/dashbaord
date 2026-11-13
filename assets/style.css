@@ -241,7 +241,7 @@ code { background: rgba(16, 33, 30, .07); padding: 2px 7px; border-radius: 7px; 
   .side { position: fixed; left: 0; top: 0; margin: 10px; height: calc(100vh - 20px); z-index: 60; transform: translateX(-115%); transition: transform .22s; background: linear-gradient(170deg, rgba(14, 96, 87, .97), rgba(8, 62, 57, .97)); }
   .nav-open .side { transform: none; box-shadow: 0 0 0 100vmax rgba(8, 38, 34, .4); }
   .menu-btn { display: block; }
-  .me { display: none; }
+  .me, .top .spacer { display: none; } .search { max-width: none; }
   .top { margin: 10px 10px 0; top: 10px; } .demo-bar { margin: 10px 10px 0; }
   #page { padding: 16px 10px 24px; } .page-head h1 { font-size: 23px; }
   .grid, .grid.g3, .inv-bottom, .tpl { grid-template-columns: 1fr; }
